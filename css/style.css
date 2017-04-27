@@ -1,0 +1,47 @@
+body{
+  background-color: #2b2424;
+}
+
+h2{
+  color: white;
+}
+
+.picture{
+  width: 7.5em;
+  height: 6em;
+  display: inline-block;
+  background-color: green;
+}
+
+.hex {
+  margin: auto;
+  width: 3.4em; height: 6em;
+  border-radius: 1em/.4em;
+  background: orange;
+  transition: opacity .5s;
+}
+.hex:before, .hex:after {
+  position: absolute;
+  width: inherit; height: inherit;
+  border-radius: inherit;
+  background: inherit;
+  content: '';
+}
+.hex:before {
+   -webkit-transform: rotate(60deg);
+   -ms-transform: rotate(60deg);/*IE9*/
+   transform: rotate(60deg);
+}
+.hex:after {
+  -webkit-transform: rotate(-60deg);
+  -ms-transform: rotate(-60deg);/*IE9*/
+  transform: rotate(-60deg);
+}
+
+.content{
+  width: 15em;
+  height: 6em;
+  background-color: red;
+  display: inline-block;
+  overflow: hidden;
+}
