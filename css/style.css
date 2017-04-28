@@ -28,7 +28,7 @@ h1, h2{
   margin: auto;
   border-radius: 50% 50% 10% 50%;
   display: inline-block;
-  background-image: url(http://localhost/tulio/TuFelipe.github.io/img/pic-full.jpg);
+  background-image: url(../img/pic-full.jpg);
   background-position: center;
   -webkit-transition: 0.5s;
   transition: 0.5s;
