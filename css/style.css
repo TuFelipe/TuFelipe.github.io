@@ -68,6 +68,7 @@ a:after, a:before, a:visited, a:active, a:link{
   cursor: pointer;
 }
 
+#github:hover{color: #e3ff00;}
 #slack:hover{color: #ff3c3c;}
 #linkedin:hover{color: #00d9ff;}
 #instagram:hover{color: #ff4fb9;}
