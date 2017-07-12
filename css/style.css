@@ -27,8 +27,8 @@ a:after, a:before, a:visited, a:active, a:link{
 }
 
 .pic{
-  width: 12em;
-  height: 12em;
+  width: 13em;
+  height: 13em;
   margin: auto;
   border-radius: 50% 50% 10% 50%;
   display: inline-block;
@@ -39,27 +39,31 @@ a:after, a:before, a:visited, a:active, a:link{
 }
 
 .content{
-  width: 17em;
-  height: 8em;
+  width: 22em;
+  height: 10em;
   margin: auto;
   display: inline-block;
   overflow: hidden;
   text-align: left;
-  line-height: 0;
   padding-left: 1.3em;
   margin-left: 1em;
   color: white;
   border-left: 2px solid #e3ff00;
 }
 
+.content h1{
+  line-height: 0;
+}
+
 .content h5{
   color: #e3ff00;
-  font-size: 18px;
+  font-size: 16px;
+  line-height: 0.5;
 }
 
 .content p{
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .content i{
